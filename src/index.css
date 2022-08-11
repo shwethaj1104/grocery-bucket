@@ -209,7 +209,6 @@ Grocery List
 .grocery {
   padding: 0.25rem;
   padding-left: 1rem;
-  background: var(--clr-grey-10);
   border-top-left-radius: var(--radius);
   border-bottom-left-radius: var(--radius);
   border-color: #7c0a0a4a;
@@ -244,7 +243,7 @@ Grocery List
     font-weight: bold;
 }
 .submit-btn:hover {
-  background: var(--clr-primary-5);
+  background: hsl(0deg 95% 19% / 48%);
   color: var(--clr-white);
 }
 
@@ -316,5 +315,5 @@ Grocery List
     border-radius: 0.5rem;
 }
 .clear-btn:hover {
-  background-color: #03a9f4;
+  background-color: hsl(0deg 95% 19% / 48%);
 }
