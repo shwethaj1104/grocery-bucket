@@ -48,12 +48,12 @@ function App() {
   }
 
   const clearList = ()=>{
-    showAlert(true,'danger','empty list')
+    showAlert(true,'danger','Cart is Empty')
     setList([])
   }
 
   const removeItem=(id)=>{
-    showAlert(true,'danger','item removed')
+    showAlert(true,'danger','cart item removed')
     setList(list.filter((item)=>
        item.id !== id
     ))
