@@ -3,9 +3,9 @@ import List from './List'
 import Alert from './Alert'
 
 const getLocalStorage = ()=>{
-  let list = localStorage.getItem('list')
+  let list = [{"id":"1660222747484","title":"Rice"},{"id":"1660222749367","title":"Shampoo"},{"id":"1660222750979","title":"wheat floor"},{"id":"1660222752762","title":"bread"}]
   if(list){
-    return JSON.parse(localStorage.getItem('list'))
+    return list
   }else{
     return []
   }
@@ -23,7 +23,6 @@ function App() {
     e.preventDefault()
     if(!name){
       showAlert(true,'danger','please enter value')
-      // setAlert({show:true,msg:'Please enter value',type:'danger'})
     }else if(name && isEditing){
       setList(list.map((item)=>{
         if(item.id === editId){
@@ -48,12 +47,12 @@ function App() {
   }
 
   const clearList = ()=>{
-    showAlert(true,'danger','empty list')
+    showAlert(true,'danger','Cart is Empty')
     setList([])
   }
 
   const removeItem=(id)=>{
-    showAlert(true,'danger','item removed')
+    showAlert(true,'danger','cart item removed')
     setList(list.filter((item)=>
        item.id !== id
     ))
@@ -76,7 +75,7 @@ function App() {
         {alert.show && <Alert {...alert} removeAlert={showAlert} list={list}/>}
         <h3>Grocery cart</h3>
         <div className='form-control'>
-          <input type='text' className='grocery' placeholder='e g .eggs' value={name} onChange={(e)=>setName(e.target.value)}></input>
+          <input type='text' className='grocery' placeholder='e g .Eggs' value={name} onChange={(e)=>setName(e.target.value)}></input>
           <button type='submit' className='submit-btn'>{isEditing ? 'Edit' : 'Submit'}</button>
         </div>
       </form>
