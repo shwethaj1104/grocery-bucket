@@ -1,3 +1,7 @@
 # Grocery-Bucket
+Shopping cart Application built using React.js
 
-![image](https://user-images.githubusercontent.com/107784718/184142678-c1f15c25-d983-4b83-81b4-2bb945ceaf3b.png)
+User will be able to add or remove items from the shopping cart. Clear cart option also provided.
+
+![image](https://user-images.githubusercontent.com/107784718/185746845-2558c423-254c-48a7-9ff4-6717a82b4bd1.png)
+
