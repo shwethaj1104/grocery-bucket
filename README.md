@@ -2,7 +2,7 @@
 
 Application built using React.js
 
-Checkout application
+Checkout application at:https://shopping-cart-ruby-delta.vercel.app/
 
 User will be able to add or remove items from the shopping cart. Clear cart option is also provided.
 
