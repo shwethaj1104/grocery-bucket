@@ -1,6 +1,6 @@
 # Grocery Bucket
 
-Shopping  Application built using React.js
+Application built using React.js
 
 User will be able to add or remove items from the shopping cart. Clear cart option also provided.
 
