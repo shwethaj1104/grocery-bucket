@@ -1,6 +1,6 @@
 # Grocery Bucket
 
-Application built using React.js 18
+Application built using React.js version 18
 
 Checkout application at : https://shopping-cart-ruby-delta.vercel.app/
 
