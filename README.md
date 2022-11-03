@@ -1,4 +1,4 @@
-# Grocery Bucket/Shopping Cart Application
+# Grocery/Shopping Cart Application
 
 Application is built using React.js version 18
 
