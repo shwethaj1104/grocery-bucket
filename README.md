@@ -1,4 +1,4 @@
-# Grocery / Shopping Cart Application
+# Grocery / Shopping Cart App
 
 Application is built using React.js version 18
 
